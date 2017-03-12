@@ -16,27 +16,6 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
------------------------------------------------------------------------------------------------------
-
-这个小demo主要介绍两个部分————vue.use()的原理，vuex的使用
-使用的vue-cli 生成的模板
-    vue int webpack-simple 文件名称
-项目目录：
-  |--src文件夹
-      |--assets      存放img,js,css等资源
-      |--components      存放项目中自动义组件    
-          |--loading      这里是自定义动画组件，介绍vue.use()的使用
-              |--index.js   
-              |--loading.vue    
-      |--store文件夹       使用vuex的文件
-          |--actions.js   dispatch触发提交的地方
-          |--getters.js   获取数据的目前状态，给mutations使用
-          |--index.js     必须有index.js，它是我们组装模块并导出 store 的地方
-          |--mutations.js   commit对象提交的地方
-          |--types.js       存放的是数据的状态，如数据是增加还是减少，显示还是隐藏
-      |--App.vue
-      |--main.js
 ------------------------------------------------------------------------------------
 
 vue.use()示例介绍：
